@@ -1,0 +1,20 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: HtpsWebSite-Kotlin
+  
+  datasource:
+    url: jdbc:sqlite:data/mydb.sqlite
+    driver-class-name: org.sqlite.JDBC
+
+logging:
+  level:
+    root: INFO
+    com.htps: INFO
+    org.springframework: INFO
+
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
