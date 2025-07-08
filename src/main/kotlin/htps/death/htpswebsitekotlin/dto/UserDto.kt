@@ -5,5 +5,6 @@ data class UserDto(
     val createDate: String = "",
     var nickName: String = "",
     var email: String = "",
-    var password: String = ""
+    var password: String = "",
+    var roles: String? = null
 )

@@ -16,7 +16,8 @@ class DatabaseInit(val jdbcTemplate: JdbcTemplate) {
                 createDate TEXT,
                 nickName TEXT,
                 email TEXT,
-                password TEXT
+                password TEXT,
+                roles TEXT
             )
         """.trimIndent()
         )

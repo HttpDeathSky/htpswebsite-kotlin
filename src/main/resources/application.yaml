@@ -18,3 +18,7 @@ logging:
 mybatis:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+jwt:
+  secret: htps-death-sky-secret-dskfnvlndjsdipfurhg129318r9y4htueajfo*(&(@*!
+  expiration: 3600000  # 毫秒，1小时
